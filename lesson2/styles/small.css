@@ -1,0 +1,79 @@
+/* Google Font Styles */
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Roboto:wght@400&display=swap');
+
+/* Basic Styles */
+body{
+    background-color: #DEE5E5;
+    color: #006C67;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+h1, h3{
+    font-family: "Concert One";
+}
+h4{
+    margin-left: .5vw;
+}
+a{
+    font-size: .7em;
+    margin-left: 1.5vw;
+}
+p{
+    padding: 1.5vw;
+    text-align: justify;
+    line-height: 3vh;
+}
+img{
+    display: block;
+    width: 95%;
+    margin: 1vh  auto;
+    border-radius: 5px;
+}
+section{
+    padding: 0 1vw;
+    width: 90%;
+    margin: auto;
+}
+.sectionStyles{
+    min-height: 1040px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 20px black;
+}
+/* Basic Heather and Footer Styles*/
+header, footer{
+    text-align: center;
+    background-color: #006C67;
+    color: #DEE5E5;
+    padding: 1.5vh;
+}
+/* Main Styles */
+main{
+    padding: .5vw;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 2em;
+}
+.subtitles{
+    text-align: center;
+    background-color: #006C67;
+    color: #DEE5E5;
+    padding: 2vw;
+    margin: 6px 2px;
+    border-radius: 15px 15px 0 0;
+}
+/* Footer styles */
+footer{
+    padding: 3vh;
+    font-size: 2vmax;
+}
+#currentYear{
+    padding: 1vh;
+}
+#lastUpdated{
+    padding: 1vh;
+}
+
+
+

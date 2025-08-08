@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:wght@700&display=swap");
+body{
+    font-family: Roboto, Helvetica, sans-serif;
+}
+table{
+    width: 60%;
+    margin: 7rem auto;
+    border-collapse: collapse;
+    border: thin solid black;
+    background-color: #FFFEF7;
+}
+caption{
+    font-size: .85rem;
+    color: navy;
+    caption-side: bottom;
+    padding: 5px;
+}
+th, td{
+    padding: 15px;
+    border: 1px solid navy;
+    text-align: center;
+}
+th{
+    background-color: navy;
+    color: white;
+}
+th:nth-child(2),th:nth-child(3),th:nth-child(4){
+    background: rgba(155, 251, 65, 0.9);;
+    color: navy;
+}
+tbody tr:nth-child(2) {
+	background-color: rgba(155, 251, 65, 0.5);
+}

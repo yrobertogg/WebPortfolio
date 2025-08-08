@@ -1,0 +1,204 @@
+@media only screen and (min-width: 32.5rem){
+    /* Header styles */
+    .banner{
+        font-size: 1rem;
+    }
+    .hLogo{
+        width: 100px;
+        height: 100px;   
+    }
+    .primaryTitle{
+        font-size: 1.8rem;
+    }
+    .secondaryTitle{
+        font-size: 1rem;
+    }
+    .socialMedia img{
+        width: 29px;
+    }
+    .dateContainer{
+        font-size: .75rem;
+    }
+    .navContainer{
+        font-size: .85rem;
+    }
+    /* .active, a:hover {
+        color: #007EA7;
+        background-color: rgb(239, 244, 199);
+      } */
+    /* Main Styles */
+    main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+    }
+    .sectionStyles{
+        font-size: 1.3rem;
+    }
+    #heroContainer{
+        grid-column: 1/-1; 
+    }
+    .heroTitle{
+       font-size: 3rem; 
+    }
+    .mainButtons{
+        font-size: 1.5rem;
+    }
+    #newsReLeaseContainer{
+        grid-column: 1/-1;
+        grid-row: 2/3;
+    }
+    #spotsContainer{
+        grid-column: 1/-1; 
+        grid-row: 3/4;
+    }
+    #spotsContainerGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    /* .spot1, .spot2{
+        border: 1px solid white;
+    } */
+    #joinContainer{
+        display: grid;
+        grid-column: 1/-1;
+        grid-row: 4/5;
+        position: relative;
+    }
+ 
+    .joinTeamButton a{
+        color: #FFEE88;
+        bottom: 35px;
+        right: 58px;
+    }
+    .joinTeamButton a:hover{
+        transition: 2s;
+    }
+    
+    #eventContainer{
+        grid-column: span 2;
+      
+    }
+    #weatherContainer{
+        grid-column: span 1;
+    }
+    .tempertureValue{
+        font-size: 1.5rem;
+    }
+    /* Footer Styles */
+    .footerInfo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .chamberAddress{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .webSiteNameFooter{
+        text-align: left;
+        margin-left: .7rem;
+    }
+    .footFlex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fLogo{
+        width: 140px;
+        height: 140px;   
+    }
+    footer{
+        font-size: .75rem;
+    }
+    /* -------------------------------Discover Page Styles---------------------------------------- */
+    .tableGridContainer{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 1rem;
+        column-gap: 2rem;
+    }
+    .tempertureTable{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .populationTable{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .elavationTable{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .discoverCards{
+        margin: 0 auto;
+        width: 300px;
+    }
+    .tableGridContainer {
+        row-gap: 7rem;
+        column-gap: 5rem;
+    }
+
+    .flowerImgContainer1, .populationImgContainer1, .mountainImgContainer1{
+        display: none;
+    }
+
+    .flowerImgContainer, .populationImgContainer, .mountainImgContainer{
+        display: grid;
+        align-items: center;
+    }
+    .flowerImgContainer img{
+        max-width: 400px;
+    }
+    .populationImgContainer img{
+        max-width: 400px;
+    }
+    .mountainImgContainer img{
+        max-width: 400px;
+    }
+    /* .flowerImgContainer{
+ 
+    }
+    .populationImgContainer{
+     
+
+    }
+    .mountainImgContainer{
+
+    } */
+    .discoverCards img:hover{
+        box-shadow: -5px -5px 5px #FFEE88, 5px -5px 5px #FFEE88, -5px 5px 5px #FFEE88, 5px 5px 5px #FFEE88;
+    }
+
+    /* ------------------------form */
+    .gridFormItem{
+        grid-column: 1/2;
+    }
+    .membershipGriditem{
+        display: grid;
+        grid-column: 2/3;
+    }
+    form label.labelStyles input, form label.labelStyles select, form label.labelStyles textarea{
+        width: 50%;
+    }
+    form label.labelStyles{
+        text-align: center;
+    }
+    form input.btnStyle{
+        display: block;
+        width: 48%;
+        margin: 0 auto;
+    }
+    form fieldset{
+        border: none;
+    }
+    form fieldset{
+        font-size: 1.2rem;
+        
+    }
+    .list section{
+        width: 30%;
+    }
+
+    
+}

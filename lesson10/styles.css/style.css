@@ -1,0 +1,55 @@
+/* Font family import */
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:wght@700&display=swap");
+
+/* Base styles */
+body{
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #EEEEEE;
+    color: #006C67;
+}
+.mainTitle{
+    font-size: 1.5rem;
+}
+h1, footer{
+    text-align: center;
+    display: block;
+    background-color: #006C67;
+    color: #EEEEEE;
+    padding: 2vh 10vw;
+    box-shadow: 0 0 10px black;
+}
+main{
+    text-align: center;
+  
+
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    margin: 0  auto;
+    padding: 2rem;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+
+}
+@media only screen and (min-width: 32.5em) {
+    .footerContainer{
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        max-width: 450px;
+    }
+    .mainTitle{
+        font-size: 2.1rem;
+    }
+}

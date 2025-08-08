@@ -1,0 +1,66 @@
+@media only screen and (min-width: 32.5em) {
+    
+    span {
+        font-size: 1.3vw;  
+    }
+    body{
+        margin-top: 5vh;
+        margin-bottom: 2vh;
+    }
+    header, footer{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .containerStyles{
+        width: 60%;
+        display: flex;
+        border-radius: 15px;
+        box-shadow: 0 0 25px black;
+    }
+    .myCardContainer{
+        padding: 0%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .imageItem{
+        width: 9.5vw; 
+        margin-top: 1.5vh;
+        margin-bottom: 1.5vh;
+        margin-left: 1vw;
+        box-shadow: 0 0 1vw white;
+    }
+    .myNameItem{
+        font-size: 2vw;
+    }
+    main{
+        width: 55%;
+    }
+    .mainTitle{
+        font-size: 2.3vw;
+        text-shadow: -1.7px -1.7px 5px #496A81;
+    }
+    .linksList{
+        font-size: 1.2vw;
+        line-height: 3.5vh;
+        text-indent: 1vmax;
+
+    }
+    .footerContainer{
+        display: block;
+        padding: 3vh;
+    }
+    #currentYear{
+        font-size: 2vw;
+        padding: 1vh;
+    }
+    #lastUpdate{
+        font-size: 1.3vw;
+        padding: 1vh;
+    }
+
+
+    
+}

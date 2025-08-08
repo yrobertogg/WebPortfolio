@@ -1,0 +1,633 @@
+/* Font family imported from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Roboto:wght@400&display=swap');
+body{
+    font-size: 16px;
+    font-family: Roboto, Helvetica, sans-serif;
+    background-color: #FFFEF7;
+}
+/* Headings */
+h1, h2, h3{
+    font-family:"Concert One", cursive, serif;
+}
+.subtitles{
+    font-family:"Concert One", cursive, serif;
+    color: #FFEE88;
+    text-align: center;
+    font-size: 1.3rem;
+}
+/* Basic styles */
+header, footer{
+    background-color: #507C47;
+    color: #FFFEF7;
+    box-shadow: 0 0 9px rgba(0, 126, 167, 1);
+}
+
+/* Header styles */
+.chamberContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem;
+
+}
+
+.banner{
+    display: none;
+    background-color: rgba(0, 126, 167, 1);
+    color: #FFEE88;
+    text-align: center;
+    font-size: .7rem;
+    box-shadow: 1px 1px 9px rgb(50, 255, 200);
+    padding: .5rem;
+}
+.hLogo{
+    width: 65px;
+    min-height: 65px;   
+}
+.logoContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+    
+}
+.websiteNameContainer{
+    margin-right: auto;
+    padding: .5rem;
+    
+}
+.primaryTitle{
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+.secondaryTitle{
+    font-size: .7rem;
+    margin-top: 0;
+}
+
+.socialMedia{
+    display: flex;
+    align-items: center;
+   
+}
+.socialMedia > div{
+    padding: .2rem;
+   
+}
+.socialMedia img{
+    width: 20px;
+}
+div button{
+    width: 29px;
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    color: #FFFEF7;
+    margin-top: -.4rem;
+}
+.dateContainer{
+    display: block;
+    color: #FFEE88;
+    padding: 1px;
+    background-color: rgba(100, 200, 80, .55);
+    font-size: .65rem;
+    margin: 0 .7rem;
+    text-align: center;
+    box-shadow: 0 0 9px rgba(0, 126, 167, 1);
+}
+.navContainer{
+    margin: 0 .7rem;
+    font-size: .75rem;
+    background-color: #007EA7;
+}
+nav ul{
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+nav ul.active{
+    display: block;
+    
+}
+
+#hamburgerBtn span:nth-child(1){
+    display: block;
+    
+}
+#hamburgerBtn span:nth-child(2){
+    display: none;
+    
+}
+
+#hamburgerBtn.active span:nth-child(1) {
+    display: none;
+    
+}
+#hamburgerBtn.active span:nth-child(2) {
+    display: block;
+    
+}
+
+nav ul li a{
+    font-family:"Concert One", cursive, serif;
+    display: block;
+    text-decoration: none;
+    padding: .6rem 1rem;
+    text-align: center;
+    color: #FFFEF7;
+}
+nav ul li a:hover{
+    color: #007EA7;
+    background-color: rgb(239, 244, 199);
+    transition: 1s;
+}
+
+/* Main styles */
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: .7rem;
+    padding: 1rem; 
+}
+.sectionStyles{
+    background-color: rgba(0, 126, 167, .9);
+    border: 2px solid #FFEE88;
+    border-radius: 5px;
+    min-height: 150px;
+    color: white;
+    font-size: 1rem;
+    text-align: justify;
+    padding: 1rem;
+}
+
+#heroContainer{
+    border: none;
+    
+    /* display: flex;
+    justify-content: center; 
+    align-items: center; */
+    position: relative;
+    box-shadow: 0 1px 12px #007EA7;
+    padding: 0;
+}
+
+/* #heroContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+} */
+
+#picTestContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.heroTitle{
+  position: absolute;  
+  /* top: 10%; */
+  top: 30%;
+  color: #FFEE88;
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: -2px -2px 2px #007ea7e6, 2px -2px 2px #007ea7e6, -2px 2px 2px #007ea7e6, 2px 2px 2px #007ea7e6; 
+}
+.mainButtons{
+    position: absolute;
+    bottom: 8%;
+    right: 6%;
+    text-decoration: none;
+    font-size: .9rem;
+    background-color: #007EA7;
+    padding: .8rem;
+    /* border: black solid 2px; */
+    border-radius: 10px;
+    color: white;
+    box-shadow: -2px -2px 2px #FFEE88, 2px -2px 2px #FFEE88, -2px 2px 2px #FFEE88, 2px 2px 2px #FFEE88;
+    font-family:"Concert One", cursive, serif;
+}
+#heroContainer a:hover{
+    font-size: 3.5vw;
+    transition: 1s;
+}
+#weatherContainer{
+    position: relative;
+    padding: 1.5rem;
+}
+
+#joinContainer{
+    display: none;
+}
+#spotsContainer{
+    display: grid;
+}
+#spotsContainerGrid{
+    display: grid;
+    align-content: center;
+
+    
+}
+/* .spot1, .spot2, .spot3{
+    border: 1px solid white;
+} */
+.spot3{
+    display: none;
+}
+.eventGridContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .8rem;
+    position: relative;
+}
+#golfImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: -2px -2px 2px #FFEE88, 2px -2px 2px #FFEE88, -2px 2px 2px #FFEE88, 2px 2px 2px #FFEE88;
+    border-radius: 10px;
+}
+.popLinks a{
+    color: white;
+    text-shadow: -2px -2px 2px #007ea7e6, 2px -2px 2px #007ea7e6, -2px 2px 2px #007ea7e6, 2px 2px 2px #007ea7e6; 
+    text-decoration: none;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 20px;
+    right: 13px;
+}
+.popLinks a:hover{
+    color: #FFEE88;
+    font-size: 1.3rem;
+    transition: 1s;
+    font-family:"Concert One", cursive, serif;
+}
+.weatherSmallGridContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: 2rem;
+}
+.wheatherTitle{
+    grid-column: 1/-1;
+    grid-row: 1/2;
+
+}
+.wheatherImg{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    justify-self: center;
+}
+figure{
+    text-align: center;
+}
+#weather-icon{
+    border-radius: 50%;
+    border: 3px solid #FFEE88;
+}
+.tempertureLabel{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    align-self: center;
+    font-size: 3rem;
+    color: white;
+}
+/* .tempertureValue{
+    grid-column: 2/3;
+    grid-row: 3/4; */
+    /* text-align: center; */
+    /* font-size: 2rem;
+    align-self: flex-start;
+
+} */
+.tempertureValue :placeholder-shown{
+    text-align: center;
+}
+.windSpeedLabel{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    text-align: center;
+}
+.windSpeedValue{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    text-align: center;
+    font-size: 1rem;
+}
+.windSpeedValue :placeholder-shown{
+    text-align: right;
+}
+.windChillLabel{
+    grid-column: 1/2;
+    grid-row: 5/6;
+    text-align: center;
+}
+#windChillResult{
+    grid-column: 2/3;
+    grid-row: 5/6;
+    text-align: center;
+    align-self: flex-end;
+    border-bottom: 4px #FFEE88 solid;
+    font-size: 1.5rem;
+    padding: .5rem;
+    color: #FFEE88;
+}
+#resultBtn{
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+   
+}
+#clearButton{
+    position: absolute;
+    bottom: 15px;
+    right: 125px; 
+}
+.weatherBtn{
+    background-color: #007EA7;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    box-shadow: -2px -2px 2px #FFEE88, 2px -2px 2px #FFEE88, -2px 2px 2px #FFEE88, 2px 2px 2px #FFEE88;
+}
+.weatherBtn:hover{
+    background-color: rgb(239, 244, 199);;
+    color: #007EA7;
+    border: white 1px solid;
+}
+.cortecy{
+    grid-column: 1/-1;
+    grid-row: 7/8; 
+    text-align: center;
+}
+.cortecy a{
+    text-decoration: none;
+    color: #FFFEF7;
+    font-size: .8rem;
+}
+.cortecy a:hover{
+    text-decoration: underline;
+    color: #FFEE88;
+}
+.spotSmallGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    column-gap: 1rem;
+    
+  
+}
+.spotSmallGrid picture img, .discoverCards img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:  10px 10px 0 0;
+    box-shadow: -2px -2px 2px #FFEE88, 2px -2px 2px #FFEE88, -2px 2px 2px #FFEE88, 2px 2px 2px #FFEE88;
+ 
+}
+.spotSmallGrid span, .discoverCards span{
+    display: block;
+    background-color: #FFFEF7;
+    color: #007EA7;
+    padding: .5rem;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 2rem;
+    box-shadow: -2px -2px 2px #FFEE88, 2px -2px 2px #FFEE88, -2px 2px 2px #FFEE88, 2px 2px 2px #FFEE88;
+}
+.spotSmallGrid span a{
+    color:#507C47;
+}
+
+/* Footer styles */
+
+footer{
+    font-size: .65rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+.fLogo{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;   
+}
+
+.contactContainer a{
+    color: #FFFEF7;
+}
+.contactContainer a:hover{
+    color: #FFEE88;
+}
+/* -------------------------------Discover Page Styles---------------------------------------- */
+.discoverMain{
+    display: block;
+    background-color: #FFFEF7;
+}
+.discoverMain p{
+    text-align: justify;
+    margin: 0 .3rem;
+}
+.discoverTitles{
+    text-align: center;
+    color: #007EA7;
+}
+.tableGridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: .8rem;
+    background-color: rgba(0, 126, 167, .1);
+
+}
+td, th {
+    border: 2px solid #507C47;
+    text-align: left;
+    padding: 8px;
+
+}  
+tr:nth-child(even) {
+    background-color: rgba(0, 126, 167, .3);
+}
+.tableGridContainer picture img{
+    width: 100%;
+    margin: 0 auto;
+    border-radius:  10px;
+    box-shadow: -2px -2px 2px #507C47, 2px -2px 2px #507C47, -2px 2px 2px #507C47, 2px 2px 2px #507C47;
+  
+}
+.flowerImgContainer, .populationImgContainer, .mountainImgContainer{
+    display: none;
+}
+.lazyLoadImg{
+    text-align: center;
+}
+.discoverCards img{
+    box-shadow: -2px -2px 2px #007EA7, 2px -2px 2px #007EA7, -2px 2px 2px #007EA7, 2px 2px 2px #007EA7;
+}
+.discoverCards span{
+    background-color: #007EA7;
+    color: #FFFEF7;
+    box-shadow: -2px -2px 2px #007EA7, 2px -2px 2px #007EA7, -2px 2px 2px #007EA7, 2px 2px 2px #007EA7;
+}
+/* --------------------------------------Form */
+.formGridContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+.gridFormItem{
+    grid-column: 1/-1;
+}
+.membershipGriditem{
+    display: none;
+}
+form fieldset{
+    margin: 1.5rem 0;
+    border: 2px solid #507C47;
+    border-radius: 7px;
+    padding: .5rem 2%;
+    
+}
+form legend{
+    color: #007EA7;
+    text-align: center;
+    padding: 0 .5rem;
+}
+form label.labelStyles{
+    display: block;
+    padding-top: 1.5rem;
+    font-size: 1rem;
+}
+form label.labelStyles input, form label.labelStyles select, form label.labelStyles textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1.2rem;
+    border: 1px solid #007EA7;
+    border-radius: 4px;
+    padding: .75rem;
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgba(80, 124, 71, .2);
+}
+form input.btnStyle{
+    border: none;
+    background-color: #007EA7;
+    color: white;
+    padding: .75rem 2rem;
+    border-radius: 15px;
+    margin: 0 0 .70rem 2%;
+    width: 96%;
+}
+form label.labelStyles input:required{
+    border-left: 6px solid red;
+}
+form label.labelStyles input:required:valid{
+    border-left: 1px solid #007EA7;
+    border-right: 6px solid green;
+}
+.msTitle{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+.go{
+    color: #D4AF37;
+}
+.si{
+    color: silver;
+}
+.br{
+    color: #CD7F32;
+}
+.membershipGriditem p{
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+}
+.msText{
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+.gold{
+    border: 2px solid #D4AF37;
+}
+.silver{
+    border: 2px solid silver;
+}
+.bronze{
+    border: 2px solid #CD7F32;
+}
+.membershipGriditem{
+    width: 90%;
+}
+.thanksContainer{
+    width: 50%;
+    margin: 0 auto;
+}
+/* --------------------------------------directory */
+.menuBtns{
+    text-align: center;
+}
+.list{
+    display: block;
+}
+.list section{
+    margin-bottom: 2rem;
+    border-bottom: 3px solid #507C47;
+    width: 60%;
+    margin: 0 auto;
+    padding: .5rem 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+
+}
+.grid section{
+    box-shadow: -2px -2px 2px #FFEE88, 2px -2px 2px #FFEE88, -2px 2px 2px #FFEE88, 2px 2px 2px #FFEE88;
+    border-radius: 10px;
+    padding: 1rem;
+    
+}
+.grid img{
+    border-radius: 10px;
+    object-fit: cover;
+}
+.directory{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.list img{
+    display: none;
+    
+}
+
+#gridIcon, #listIcon{
+    font-size: 3.5rem;
+    padding: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: #507C47;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+.lastVisit{
+    text-align: center;
+    padding: .5rem;
+}

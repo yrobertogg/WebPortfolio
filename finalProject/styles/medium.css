@@ -1,0 +1,80 @@
+@media only screen and (min-width: 32.5rem){
+    /*--------- General Styles Changes --------- */
+    h3{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    #currentYear, #lastModified, .authorsName{
+        font-size: 1.2rem;
+    }
+    /*--------- Header Changes ----------*/
+    #top{
+        display: none;
+    }
+    .logoContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .websiteName{
+        margin-left: 2rem;
+    }
+    div button{
+        font-size: 3rem;
+    }
+    /* -------------Nav changes------------ */
+    .navContainer{
+        font-size: 1.3rem;
+
+    }
+
+    /*---------- Hero changes ------------*/
+    .heroTitle{
+        font-size: 2.5rem;
+        left: 34%;
+    }
+    .heroText{
+        font-size: 2rem;
+        top: 33%;
+    }
+    .heroBtn{
+        right: 38%;
+    }
+    .linkBtn{
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+    /* ----------- Weather cards changes ---------*/
+    .gridWeatherContainer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 1rem;
+    }
+    .weatherCards{
+        width: 70%;
+        font-size: 1.2rem;
+    }
+    .weatherCard3, .weatherCard2{
+        display: grid;
+     
+    }
+    /* -------- Footer changes --------- */
+    .socialMedia div img{
+        width: 34px;
+    }
+    /* -------------------------about us page---------------------------------------- */
+}
+.aboutContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+    justify-content: center;
+}
+.historicalInfo{
+    grid-column: 1/-1;
+
+}

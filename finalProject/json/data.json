@@ -1,0 +1,67 @@
+{
+    "towns": [
+      {
+        "name": "Santa Catalina Island",
+        "location": "20 miles southwest of LA",
+        "highlights": "Aside from Avalon, one of the main draws of Santa Catalina Island is the fact that you can't hire a car over there so the twisty, windy, roads tend to be fairly empty other than the tiny cars, trucks and pick-ups driven by the locals.",
+        "url": "https://www.visitcalifornia.com/places-to-visit/catalina-island/",
+        "imageurl": "/wdd230/finalProject/images/santaCatalina250x250.webp"
+      },
+      {
+        "name": "Malibu",
+        "location": "The LA County",
+        "highlights": "The multicoloured sunsets disappearing into the Malibu horizon are simply stunning and it's no surprise that some of the best spots to ease into the evening are occupied by the properties of the rich and famous.",
+        "url": "https://www.malibucity.org/",
+        "imageurl": "/wdd230/finalProject/images/malibu250x250.webp"
+      },
+      {
+        "name": "Santa Barbara",
+        "location": "Santa Barbara is the capital of Santa Barbara County",
+        "highlights": "This is an absolute A-Lister haven and if you're wondering what a typical star-studded sandy beach looks like in California then look no further than Santa Barbara's waterfront.",
+        "url": "https://santabarbaraca.gov/",
+        "imageurl": "/wdd230/finalProject/images/santaBarbara250x250.webp"
+      },
+      {
+        "name": "San Clemente",
+        "location": "Between LA and San Diego, Orange County",
+        "highlights": "The surfing in San Clemente is legendary with all year round swells providing pros and tourists with all manner of reasons to get excited, not least of all the range of t-shirt shops that you'll find side by side to the skate and surfboard stores.",
+        "url": "https://www.san-clemente.org/about-us/city-information/about-san-clemente",
+        "imageurl": "/wdd230/finalProject/images/sanClemente250x250.webp"
+      },
+      {
+        "name": "Venice Beach",
+        "location": "Western side of Los Angeles",
+        "highlights": "The Ocean Front Walk is an iconic promenade, and one you won’t want to miss. A truly bizarre experience - walk along the two and a half mile boardwalk and you’ll be met with a myriad of different performances, people and sights.",
+        "url": "https://www.visitcalifornia.com/places-to-visit/venice-beach/",
+        "imageurl": "/wdd230/finalProject/images/venice250x250.webp"
+      },
+      {
+        "name": "La Jolla",
+        "location": "San Diego's northern",
+        "highlights": " If you're hoping to splash some cash then the boutiques on Girard Avenue are sure to turn more than a few heads with the Museum of Contemporary Art and the local Playhouse providing just a couple of alternatives to days spent at the beach.",
+        "url": "https://www.sandiego.org/explore/coastal/la-jolla.aspx",
+        "imageurl": "/wdd230/finalProject/images/laJolla250x250.webp"
+      },
+      {
+        "name": "Santa Cruz",
+        "location": "Situated in Santa Cruz County",
+        "highlights": "If it's not the sand, the sunshine and the sealions then Santa Cruz's laid back and weird vibe is the stand out highlight amongst the rest of California's more respectable coastal settings. Surf shops, diners, cafés and pool bars fill the sea front with annual cultural events and festivals.",
+        "url": "https://www.cityofsantacruz.com/",
+        "imageurl": "/wdd230/finalProject/images/santaCruz250x250.webp"
+      },
+      {
+        "name": "Pacific Palisades",
+        "location": "Located on the Westside of LA within close proximity to Brentwood",
+        "highlights": "Each of Pacific Palisades seven neighbourhoods promises something a little bit different and a touch more special than the others with a lack of beachfront properties helping to maintain the beach in all of its wild and untouched natural beauty.",
+        "url": "https://www.palisadeschamber.com/",
+        "imageurl": "/wdd230/finalProject/images/pacific250x250.webp"
+      },
+      {
+        "name": "Coronado",
+        "location": "Southwest of California in San Diego County",
+        "highlights": "extremely welcoming to families visiting California and provides an island ambience even though you're still connected to the mainland.",
+        "url": "https://coronadovisitorcenter.com/",
+        "imageurl": "/wdd230/finalProject/images/coronado250x250.webp"
+      }
+    ]
+}

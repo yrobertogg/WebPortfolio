@@ -1,0 +1,86 @@
+@media only screen and (min-width: 64rem){
+    /*--------- General Styles Changes --------- */
+    h3{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    /*--------- Header Changes ----------*/
+    #top{
+        display: flex;
+    }
+    .logo img{
+        display: flex;
+    }
+    .logoContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .websiteName{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+    div button{
+        font-size: 3rem;
+    }
+    /* -------------Nav changes------------ */
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    #hamburgerBtn span:nth-child(1){
+        display: none;
+    }
+    .navContainer{
+        font-size: 1.3rem;
+
+    }
+
+    /*---------- Hero changes ------------*/
+    .heroTitle{
+        font-size: 3.5rem;
+        left: 34%;
+    }
+    .heroText{
+        font-size: 2.5rem;
+        top: 33%;
+    }
+    .heroBtn{
+        right: 38%;
+    }
+    .linkBtn{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    /* ----------- Weather cards changes ---------*/
+    .gridWeatherContainer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 1rem;
+    }
+    .weatherCards{
+        width: 70%;
+        font-size: 1.2rem;
+    }
+    .weatherCard3, .weatherCard2{
+        display: grid;
+        
+    }
+    /* -------- Footer changes --------- */
+    .socialMedia div img{
+        width: 40px;
+    }
+    .footerData{
+        display: flex;
+        justify-content: space-around;
+    }
+    .copyContainer, .footFlex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

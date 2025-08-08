@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:wght@700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto, Helvetica, sans-serif;
+    background-color: #FEFEFE;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header img{
+
+    padding: 1rem;
+    width: 20%;
+    background-color: transparent;
+}
+h1{
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: "Carter One", cursive, serif;
+    color: #4153AD;
+}
+main{
+    
+    margin: 2rem auto;
+    border: 2px solid #0000DF;
+    padding: 1.8rem;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: .5rem;
+}
+input, button{
+    padding: .5rem;
+}
+button{
+    margin: .5rem;
+}
+/* ? */
+.delete{
+    /*What is the fuction of "fit-content" */
+    width: fit-content;
+}
+input{
+    display: flex;
+    gap: 1rem
+}
+/* I don't have a class: "list"*/
+.list{
+    padding: .5rem;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media only screen and (min-width: 32.5rem){
+    h1{
+        font-size: 2.5rem;
+    }
+    main{
+        width: 320px;
+    }
+}
+

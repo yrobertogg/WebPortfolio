@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the Home Page of the Salt Lake City Downtown Chamber of Commerce.">
+    <title>Home</title>
+    <link rel="icon" href="/wdd230/chamber/images/faviconT.ico">
+    <link rel="stylesheet" href="/wdd230/chamber/styles/normalize.css">
+    <link rel="stylesheet" href="/wdd230/chamber/styles/base.css">
+    <link rel="stylesheet" href="/wdd230/chamber/styles/medium.css">
+    <link rel="stylesheet" href="/wdd230/chamber/styles/large.css">
+</head>
+
+<body>
+
+<!-- Header -->
+    <header>
+            <div class="banner">
+                &#128073; Come join us for the chamber meeting on Wednesday at 7:00 p.m &#128072;
+            </div>
+        <div class="chamberContainer">
+            <div class="logoContainer hLogo"><a href="https://yoav-galindo.github.io/wdd230/chamber/"><img src="/wdd230/chamber/images/slcChaGreen.webp" alt="SLC UT Chamber of Commerce logo"></a></div>
+            <div class="websiteNameContainer">
+                <h1 class="primaryTitle">SLC UT</h1>
+                <h2 class="secondaryTitle">CHAMBER OF COMMERCE</h2>
+            </div>
+
+            <div class="socialMedia">
+                <div><a href="https://www.facebook.com" target="_blank"><img src="/wdd230/chamber/images/5296499_fb_facebook_facebooklogo_icon.png" alt="facebook_icon" width="40"></a></div>
+                <div><a href="https://www.instagram.com" target="_blank"><img src="/wdd230/chamber/images/3225191_app_instagram_logo_media_popular_icon.png" alt="instagram_icon" width="40"></a></div>
+                <div><button id = "hamburgerBtn"><span>&#9776;</span><span>x</span></button></div>
+            </div>
+            
+        </div>
+
+        <div class="dateContainer">
+            <p id="currentDate"></p>
+        </div>
+        <div class="navContainer">
+            <nav>
+                <ul id="primaryNav">
+                    <li><a href="https://yoav-galindo.github.io/wdd230/chamber/" class="active">HOME</a></li>
+                    <li><a href="https://yoav-galindo.github.io/wdd230/chamber/discover.html">DISCOVER</a></li>
+                    <li><a href="https://yoav-galindo.github.io/wdd230/chamber/directory.html">DIRECTORY</a></li>
+                    <li><a href="https://yoav-galindo.github.io/wdd230/chamber/join.html">JOIN</a></li>
+                    <!-- <li><a href="#">CONTACT</a></li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!-- Main -->
+    <main>
+        <section class="sectionStyles" id="heroContainer">
+                <picture id="picTestContainer">
+                    <source media="(max-width: 400px)" srcset="/wdd230/chamber/images/slc400s.webp">
+                    <source media="(max-width: 720px)" srcset="/wdd230/chamber/images/slc520m.webp">
+                    <source media="(max-width: 2048px)" srcset="/wdd230/chamber/images/slc1024l.webp">
+                    <img src="/wdd230/chamber/images/slc.jpg" alt="Hero img"> 
+                </picture>
+             <h3 class="heroTitle">Welcome to The Downtown Business Chamber</h3>
+            <a href="#" class="mainButtons">JOIN US</a>
+        </section>
+
+        <section class="sectionStyles" id="eventContainer">
+            <h3 class="subtitles">CHAMBER GOLF PLAY</h3>
+            <div class="eventGridContainer">
+                <div><p>Downtown Chamber Golf Play is the most expected event in our community. Come with your family and participate, we'll have a delicious lunch, gifts, a whole day of golf, great speakers, and more...</p></div>
+                <picture>
+                    <source media="(max-width: 400px)" srcset="/wdd230/chamber/images/golf289m.webp">
+                    <source media="(max-width: 1600px)" srcset="/wdd230/chamber/images/golf411l.webp">
+                    <img src="/wdd230/chamber/images/golf.jpg" alt="Man playing golf img" id="golfImg">
+                </picture>
+                <div class="popLinks">
+                    <a href="">Register Now!</a> 
+                </div>
+            </div>
+
+        </section>
+
+        <section class="sectionStyles" id="weatherContainer">
+            <div class="weatherSmallGridContainer">
+                <div class="wheatherTitle"><h3 class="subtitles">SALT LAKE CITY WEATHER</h3></div>
+                <!-- <div class= "wheatherImg"><img src="/wdd230/chamber/images/weather.png" alt="Weather img"></div> -->
+
+                <!-- <div class="tempertureLabel"><label for="tempertureInput">Temperture:</label></div>   -->
+                <div class="tempertureLabel">
+                    <span></span>
+                </div>  
+                <div>
+                    <figure>
+                        <img src="weather-icon" alt="" id="weather-icon">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+                <!-- <div class="tempertureValue"><input type="text" id="tempertureInput" placeholder="" maxlength="4" size="4"><span>°F</span></div> -->
+
+
+                <div class="windSpeedLabel"><label>Wind Speed:</label></div>
+                <div class="windSpeedValue" id="windSpeedInput"><span></span></div>
+                <!-- <div class="windSpeedValue"><input type="text" id="windSpeedInput" placeholder="" maxlength="4" size="4"><span>mph</span></div> -->
+
+                <div class="windChillLabel"><span>Wind Chill:</span></div>
+                <div id="windChillResult"><span></span></div>
+                <!-- <div id="windChillResult"><span></span></div> -->
+
+                <div class="cortecy"><a href="https://openweathermap.org/">Cortecy of: Open Weather</a></div>
+                
+                
+                <!-- <div class="windChillResult"><span></span></div> -->
+                
+            </div>
+            <!-- <button id="resultBtn" class="weatherBtn" type="submit">Result</button>
+            <button id="clearButton" class="weatherBtn" type="reset">Clear</button> -->
+        </section>
+
+        <section class="sectionStyles" id="newsReLeaseContainer">
+            <h3 class="subtitles">NEW RELEASE</h3>
+            <p>This is the new release of our podcast where are the ideas? We invite you to follow us and participate in it.</p>   
+         </section>
+
+        <div class="sectionStyles" id="joinContainer">
+            
+            <p>Join to our team to attend to future events, to extend your contact network, new opportunities, relationships and more.</p>   
+            <div class="popLinks joinTeamButton">
+                <a href="">JOIN TO OUR TEAM NOW!</a> 
+            </div> 
+        </div>
+
+        <section class="sectionStyles" id="spotsContainer">
+            <h3 class="subtitles">SPOTLIGHTS</h3>
+            <div id="spotsContainerGrid">
+                <div class="spot1">
+                    <div class="spotSmallGrid">
+                        <div>
+                            <picture>
+                            <img src="/wdd230/chamber/images/socialMedia520m.webp" alt="Social Media img">
+                            </picture>
+                        </div>
+                        <div>
+                            <span>Learn how to improve your sales through the power of social media. <a href="#">more info.</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spot2">
+                    <div class="spotSmallGrid">
+                        <div>
+                            <picture>
+                            <img src="/wdd230/chamber/images/TikTok520m.webp" alt="TikTok img">
+                            </picture>
+                        </div>
+                        <div>
+                            <span>Tiktok the new marketing platform for your products, learn to use it. <a href="#">more info.</a></span>
+                        </div>
+                    </div>    
+                </div>
+
+                
+                <div class="spot3">
+                    <div class="spotSmallGrid">
+                        <div>
+                            <picture>
+                            <img src="/wdd230/chamber/images/video520m.webp" alt="Video Img">
+                            </picture>
+                        </div>
+                        <div>
+                            <span>Learn how to engage your brand with short videos. <a href="#">more info.</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+<!-- Footer -->
+    <footer>
+        <div class="footerInfo">
+            <div class="chamberAddress">
+                <div class="logoContainer fLogo"><a href="https://yoav-galindo.github.io/wdd230/chamber/"><img src="/wdd230/chamber/images/slcChaGreen.webp" alt="SLC UT Chamber of Commerce logo"></a></div>
+                <div class="webSiteNameFooter"><p>Salt Lake City UT Chamber of Commerce</p>
+                <address>301 S 800 E <br> SLC UT <br> 84104</address></div>
+            </div>
+
+
+            <div class="contactContainer">
+                <div class="mail"><p>&#128231; <a href="mailto:yoav-2006@hotmail.com">chambercommerce@hotmail.com</a></p></div>
+                <div class="tel"><p>&#9742; <a href="tel:8012594488">+(801)2594488</a></p></div>
+                <div class="location"><p>📍<a href="https://www.google.com/maps/place/301+S+800+E,+Salt+Lake+City,+UT+84102/@40.762842,-111.8681044,17z/data=!4m5!3m4!1s0x8752f565fd475251:0xd66fd7e0a550c3f9!8m2!3d40.762842!4d-111.8681044">Location Map</a></p></div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="copyContainer">
+            <div class="footFlex">
+                <div id="currentYear"><p></p></div>
+                <div class="authorsName"><p>Roberto Galindo |</p></div>
+                <div><p>WDD230 Project|</p></div>
+            </div>
+            <div id="lastModified"><p></p></div>
+        </div>
+
+
+
+    </footer>
+    
+<script src="/wdd230/chamber/scripts/script.js"></script>
+<script src="/wdd230/chamber/scripts/windchill.js"></script>
+</body>
+</html>

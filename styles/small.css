@@ -1,0 +1,147 @@
+/* Font family import */
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:wght@700&display=swap");
+
+/* Easy Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Basic Styles */
+span {
+    font-size: 1.7vmax; 
+
+    /* last value */
+    /* font-size: 1vmax;   */
+}
+body{
+    background-color: #EEEEEE;
+    font-family: Roboto, Helvetica, sans-serif;
+    margin-top: 2vh;
+
+    /* last values */
+    /* margin-top: 5vh;
+    margin-bottom: 2vh; */
+    /* background-color: #EEEEEE;
+    font-family: Roboto, Helvetica, sans-serif; */
+}
+h1, h2{
+    font-family:"Carter One", cursive, serif;
+}
+/* header, footer{
+    last values
+    display: flex;
+    justify-content: center;
+} */
+.containerStyles{
+    width: 100%;
+    display: block;
+    background-color: #007C77;
+    box-shadow: 0 0 10px black;
+    
+    /* last values */
+    /* width: 60%;
+    background-color: #007C77;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 0 0 30px black */
+}
+/* Heather Styles */
+.myCardContainer{
+    padding: 1vh;
+    /* last values */
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+}
+.imageItem{
+    display: block;
+    width: 31vw;
+    margin: auto;
+    border-radius: 100px;
+    box-shadow: 0 0 4vw white;
+    margin-top: 2vh;
+
+    /* last values */
+    /* width:11vw; 
+    margin-top: 1.5vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    border-radius: 100px;
+    box-shadow: 0 0 1vw white; */
+}
+.myNameItem{
+    text-align: center;
+    font-size: 4.2vw;
+    color: #EEEEEE;
+    text-shadow: -2px -2px 2px #0000DF, 2px -2px 2px #0000DF, -2px 2px 2px #0000DF, 2px 2px 2px #0000DF; 
+
+    /* last values */
+
+    /* padding: 1vh;
+    font-size: 1.5vw;
+    color: #EEEEEE;
+    text-shadow: -2px -2px 2px #0000DF, 2px -2px 2px #0000DF, -2px 2px 2px #0000DF, 2px 2px 2px #0000DF; */
+}
+/* Main styles */
+main{
+    width: 85%;
+    margin: auto;
+
+    /* last values */
+    /* width: 55%;
+    margin: auto; */
+}
+.mainTitle{
+    font-size: 5.3vw;
+    text-shadow: -1.7px -1.7px 10px #496A81;
+
+    /* last values */
+    /* font-size: 3vw;
+    text-shadow: -1.7px -1.7px 3px #496A81; */
+}
+.linksList{
+    list-style: none;
+    font-size: 1.8vmax;
+    line-height: 2.9vh;
+    text-indent: .8vmax;
+
+    /* last values */
+    /* list-style: none;
+    font-size: 1.4vmax;
+    line-height: 2.7vh;
+    text-indent: 1vmax; */
+}
+/* Footer styles */
+.footerContainer{
+    text-align: center;
+    padding: 6vh;
+    text-shadow: -2px -2px 2px #0000DF, 2px -2px 2px #0000DF, -2px 2px 2px #0000DF, 2px 2px 2px #0000DF;
+
+    /* last values */
+    /* text-align: center;
+    padding: 2vh;
+    text-shadow: -2px -2px 2px #0000DF, 2px -2px 2px #0000DF, -2px 2px 2px #0000DF, 2px 2px 2px #0000DF; */
+}
+#currentYear{
+    /* The Wave Accessibility tool says this color didn't passed the AA standar for accessibility contrast. The contrast was very low. */
+    color: white;
+    /* color: #EEEEEE; */
+    /* The Wave Accessibility tool gave the alert that this font size looked as a heading.*/
+    /* font-size: 2.3vw; */ 
+    /* last value */
+    /* font-size: 2vw; */
+    font-size: 4.9vw;
+    padding: 1vh;
+}
+#lastUpdate{
+    
+    font-size: 3vw;
+    padding: 1vh;
+    /* last value */
+    /* font-size: 1.6vw; */
+    text-shadow: -2px -2px 2px #0000DF, 2px -2px 2px #0000DF, -2px 2px 2px #0000DF, 2px 2px 2px #0000DF;
+    /* The Wave Accessibility tool says this color didn't passed the AA standar for accessibility contrast. The contrast was very low. */
+    /* color: #FFD449; */
+    color: #D8FF9E;
+}

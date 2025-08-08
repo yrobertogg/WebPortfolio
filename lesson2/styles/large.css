@@ -1,0 +1,14 @@
+@media only screen and (min-width: 70.5em){
+    .gridContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 2vw;
+    }
+    .section3{
+        grid-column: span 1;
+    }
+    footer{
+        font-size: 2.5vmin;
+    }
+}

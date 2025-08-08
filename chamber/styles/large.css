@@ -1,0 +1,96 @@
+@media only screen and (min-width: 64rem){
+    /* Head styles */
+    .banner{
+        font-size: 1.1rem;
+    }
+    .dateContainer{
+        font-size: .85rem;
+    }
+    .navContainer{
+        font-size: 1.2rem;
+    }
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    #hamburgerBtn span:nth-child(1){
+        display: none;
+    }
+    /* Main styles */
+   main{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);       
+   }
+   .sectionStyles{
+    font-size: .95rem;
+    }
+
+    #heroContainer{
+        grid-column: 2/4;
+        grid-row: 1/3; 
+    }
+    .heroTitle{
+        font-size: 3rem; 
+     }
+     .mainButtons{
+        font-size: 2rem;
+    } 
+    .popLinks a{
+        bottom: 2px;
+        left: 2px;
+        font-size: 1rem;
+    }
+    .popLinks a:hover{
+        font-size: 1.1rem;
+    }
+    #joinContainer{
+        grid-column: 1/2;
+        grid-row: 3/4; 
+        position: relative;
+    }
+    .joinTeamButton a{
+        left: 70px;
+        bottom: 22px;
+        text-align:right;
+    }
+
+    #newsReLeaseContainer{
+        grid-column: 2/4;
+        grid-row: 3/4;
+    }
+    #spotsContainer{
+        grid-column: 4/5; 
+        grid-row: 1/4;
+    }
+    #spotsContainerGrid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .spot3{
+        display: grid;
+    }
+    #eventContainer{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    #weatherContainer{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    /* Foot styles */
+    .footerInfo{
+        justify-content: space-around;
+    }  
+    .copyContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .webSiteNameFooter{
+   
+        margin-left: 1.5rem;
+    }
+    footer{
+        font-size: .85rem;
+    }
+}   

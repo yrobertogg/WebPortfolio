@@ -1,0 +1,76 @@
+{
+    "directory": [
+      {
+        "name": "YGMA Company",
+        "location": "250 S 500 E UT 85103",
+        "number": "560-568-1358",
+        "url": "https://ygmacompany.com",
+        "membership": "gold",
+        "imageurl": "/wdd230/chamber/images/logos/ygmaLogo.webp"
+      },
+      {
+        "name": "Big Company",
+        "location": "895 N 600 E UT 45111",
+        "number": "801-456-5287",
+        "url": "https://bigcompany.com",
+        "membership": "silver",
+        "imageurl": "/wdd230/chamber/images/logos/bigLogo200x200.webp"
+      },
+      {
+        "name": "Small Company",
+        "location": "620 E 200 S UT 43520",
+        "number": "320-591-2544",
+        "url": "https://smallcompany.com",
+        "membership": "bronze",
+        "imageurl": "/wdd230/chamber/images/logos/carLogo200x200.webp"
+      },
+      {
+        "name": "Track Company",
+        "location": "112 N 300 W UT 42120",
+        "number": "520-654-2585",
+        "url": "https://trackcompany.com",
+        "membership": "silver",
+        "imageurl": "/wdd230/chamber/images/logos/tracksLogo200x200.webp"
+      },
+      {
+        "name": "Rolls Company",
+        "location": "1125 W 700 E UT 48569",
+        "number": "856-584-4488",
+        "url": "https://rollscompany.com",
+        "membership": "gold",
+        "imageurl": "/wdd230/chamber/images/logos/rollsLogo200x200.webp"
+      },
+      {
+        "name": "Colors Company",
+        "location": "2320 W 500 S UT 56894",
+        "number": "695-255-6369",
+        "url": "https://colorscompany.com",
+        "membership": "gold",
+        "imageurl": "/wdd230/chamber/images/logos/colorsLogo200x200.webp"
+      },
+      {
+        "name": "Dogs Company",
+        "location": "824 S 300 E UT 47858",
+        "number": "475-256-4789",
+        "url": "https://dogscompany.com",
+        "membership": "gold",
+        "imageurl": "/wdd230/chamber/images/logos/dogsLogo200x200.webp"
+      },
+      {
+        "name": "Roberto's Company",
+        "location": "1243 S 100 N UT 23111",
+        "number": "258-354-5478",
+        "url": "https://robertoscompany.com",
+        "membership": "gold",
+        "imageurl": "/wdd230/chamber/images/logos/programmingLogo200x200.webp"
+      },
+      {
+        "name": "MAHY Company",
+        "location": "587 W 400 S",
+        "number": "658-458-6547",
+        "url": "https://mahycompany.com",
+        "membership": "gold",
+        "imageurl": "/wdd230/chamber/images/logos/woodLogo200x200.webp"
+      }
+    ]
+  }

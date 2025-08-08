@@ -1,0 +1,38 @@
+@media only screen and (min-width: 32.5em) {
+    /* Header Styles */
+    .headerContainer{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        align-items: center;
+        padding: 2rem;
+    }
+    #logo img{
+        margin-top: 0;
+    }
+    ul{
+        display: flex;
+    }
+    nav li a{
+        /* display: block; */
+        width: 32vw;
+    }
+    nav a:hover{
+        background-color: #007EA7;
+        color: #FFEE88;
+        border-radius: 10px;
+        transition: 1100ms;
+    }
+    /* Main Styles */
+    .subtitleLogo{
+        text-align: left;
+    }
+    /* Footer Styles */
+    .footerContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,263 @@
+/* Fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Nunito&display=swap');
+
+/* General Styles */
+body{
+    background-color: #FFFFFF;
+    font-family: Nunito, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.title, .subtitle, h3{
+    font-family: "Contrail One", cursive, serif;
+}
+h3{
+    color: #FDCA40;
+    text-shadow: -2px -2px 2px #68276E, 2px -2px 2px #68276E, -2px 2px 2px #68276E, 2px 2px 2px #68276E;
+}
+header, footer{
+    color: #FFFFFF;;
+    background-color: #68276E;
+    box-shadow: 0 0 9px #777;
+}
+.logoContainer, .footerData{
+    text-align: center;
+    padding: 1.5rem;
+}
+.logo img{
+    border: 4px solid #FDCA40;
+}
+.linkBtn{
+    text-decoration: none;
+    font-size: .9rem;
+    background-color: #68276E;
+    padding: .8rem;
+    border-radius: 7px;
+    color: white;
+    box-shadow: -2px -2px 2px #FFEE88, 2px -2px 2px #FFEE88, -2px 2px 2px #FFEE88, 2px 2px 2px #FFEE88;
+    font-family: "Contrail One", cursive, serif;
+}
+hr{
+    width: 90%;
+}
+/*---------------- Header Style -------------------*/
+#top{
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggleBtnContainer{
+    padding: 2.7rem;
+    align-self: start;
+}
+.logo img{
+    display: block;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    width: 130px; 
+}
+
+div button{
+    width: 29px;
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    color: #FDCA40;
+}
+.navContainer{
+    margin: 0 .7rem;
+    font-size: .75rem;
+    background-color: #d16100;
+    box-shadow: 0 0 9px #68276E;
+    border-radius: 0 0 5px 5px;
+}
+nav ul{
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+nav ul.active{
+    display: block;
+    
+}
+
+#hamburgerBtn span:nth-child(1){
+    display: block;
+    
+}
+#hamburgerBtn span:nth-child(2){
+    display: none;
+    
+}
+
+#hamburgerBtn.active span:nth-child(1) {
+    display: none;
+    
+}
+#hamburgerBtn.active span:nth-child(2) {
+    display: block;
+    
+}
+
+nav ul li a{
+    font-family: "Contrail One", cursive, serif;
+    display: block;
+    text-decoration: none;
+    padding: .6rem 1rem;
+    text-align: center;
+    color: #FFFEF7;
+}
+nav ul li a:hover{
+    color: #FDCA40;
+    background-color: #68276E;
+    box-shadow: 0 1px 12px #FDCA40;
+    transition: 1s;
+}
+/* -------------- Main Styles ------------------- */
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+    padding: 1rem;
+}
+/* Section Styles */
+.sectionStyles{
+    border-radius: 5px;
+}
+
+/* -------------- Hero Styles ----------------------*/
+.heroContainer{
+    border: none;
+    position: relative;
+    box-shadow: 0 1px 12px #FDCA40;
+    padding: 0;
+}
+#heroImageContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.heroTitle{
+    position: absolute;
+    top: 5%;
+    left: 28%;
+    color: white;
+    text-shadow: -2px -2px 2px #68276E, 2px -2px 2px #68276E, -2px 2px 2px #68276E, 2px 2px 2px #68276E;
+}
+.heroText{
+    position: absolute;
+    top: 29%;
+    color: white;
+    text-shadow: -2px -2px 2px #68276E, 2px -2px 2px #68276E, -2px 2px 2px #68276E, 2px 2px 2px #68276E;
+    text-align: center;
+}
+.heroBtn{
+    position: absolute;
+    bottom: 15%;
+    right: 31%;
+}
+/*--------------- Wheather Styles ------------------*/
+.carlsbadTitle{
+    text-align: center;
+}
+.currentDate{
+    padding: 1rem;
+}
+.gridWeatherContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+.weatherCards{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid #68276E;
+    border-radius: 10px;
+    text-align: center;
+    padding: .5rem;
+    color: white; 
+    background-color: rgba(104, 39, 110, .8);;
+    box-shadow: 0 1px 12px #68276E;
+}
+.weatherCard3, .weatherCard2{
+    display: none;
+}
+
+/*---------------- Coastal Southern California Cards ----------------*/
+.cardsContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.cardsContainer section{
+    padding: 1rem;
+    box-shadow: 0 1px 12px #68276E;
+    border-radius: 10px;
+    background-color: rgba(104, 39, 110, .3);
+}
+.cardsContainer section img{
+    box-shadow: 0 1px 12px #68276E;
+    border-radius: 10px;
+}
+.cardsContainer section li{
+    list-style: none;
+}
+/*-------------------- Footer Styles ------------------------*/
+.footerData a{
+    color: white;
+}
+.footerData a:hover{
+    color: #FDCA40;
+}
+.socialMedia{
+    display: flex;
+    justify-content: center;
+}
+.socialMedia div{
+    padding: .4rem;
+}
+.socialMedia div img{
+    width: 28px;
+}
+/* Copy and Updated date */
+.copyContainer{
+    text-align: center;
+    font-size: .8rem;
+    padding: .5rem;
+}
+/* -------------------------------------about us page---------------------------------------- */
+.aboutTitle{
+    font-family: "Contrail One", cursive, serif;
+    text-align: center;
+    color: #FDCA40;
+    text-shadow: -2px -2px 2px #68276E, 2px -2px 2px #68276E, -2px 2px 2px #68276E, 2px 2px 2px #68276E;
+}
+.aboutContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+    justify-content: center;
+}
+.aboutContainer div{
+    width: 90%;
+    margin: 0 auto;
+}
+.historicalInfo p{
+    text-align: justify;
+}
+.aboutContactInfo{
+    text-align: center;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the join page for the Salt Lake City Chamber of Commerce. This page contains a form to join to the chamber with a specific membership.">
+    <title>Home|Join</title>
+    <link rel="icon" href="/wdd230/chamber/images/faviconT.ico">
+    <link rel="stylesheet" href="/wdd230/chamber/styles/normalize.css">
+    <link rel="stylesheet" href="/wdd230/chamber/styles/base.css">
+    <link rel="stylesheet" href="/wdd230/chamber/styles/medium.css">
+    <link rel="stylesheet" href="/wdd230/chamber/styles/large.css">
+</head>
+<body>
+    <header>
+        <div class="banner">
+            &#128073; Come join us for the chamber meeting on Wednesday at 7:00 p.m &#128072;
+        </div>
+    <div class="chamberContainer">
+        <div class="logoContainer hLogo"><a href="https://yoav-galindo.github.io/wdd230/chamber/"><img src="/wdd230/chamber/images/slcChaGreen.webp" alt="SLC UT Chamber of Commerce logo"></a></div>
+        <div class="websiteNameContainer">
+            <h1 class="primaryTitle">SLC UT</h1>
+            <h2 class="secondaryTitle">CHAMBER OF COMMERCE</h2>
+        </div>
+
+        <div class="socialMedia">
+            <div><a href="https://www.facebook.com" target="_blank"><img src="/wdd230/chamber/images/5296499_fb_facebook_facebooklogo_icon.png" alt="facebook_icon" width="40"></a></div>
+            <div><a href="https://www.instagram.com" target="_blank"><img src="/wdd230/chamber/images/3225191_app_instagram_logo_media_popular_icon.png" alt="instagram_icon" width="40"></a></div>
+            <div><button id = "hamburgerBtn"><span>&#9776;</span><span>x</span></button></div>
+        </div>
+        
+    </div>
+
+    <div class="dateContainer">
+        <p id="currentDate"></p>
+    </div>
+    <span class="daysSinceLastVisit"></span>
+    <div class="navContainer">
+        <nav>
+            <ul id="primaryNav">
+                <li><a href="https://yoav-galindo.github.io/wdd230/chamber/">HOME</a></li>
+                <li><a href="https://yoav-galindo.github.io/wdd230/chamber/discover.html" class="active">DISCOVER</a></li>
+                <li><a href="https://yoav-galindo.github.io/wdd230/chamber/directory.html">DIRECTORY</a></li>
+                <li><a href="https://yoav-galindo.github.io/wdd230/chamber/join.html">JOIN</a></li>
+                <!-- <li><a href="#">CONTACT</a></li> -->
+            </ul>
+        </nav>
+    </div>
+
+    </header>
+    <main class="formGridContainer">
+        <div class="gridFormItem">
+            <form method="get" action="/wdd230/chamber/thankyou.html">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="labelStyles">First Name* <input type="text" name="fname" required></label>
+                    <label class="labelStyles">Last Name* <input type="text" name="lname" required></label>
+                    <label class="labelStyles">Phone* <input type="tel" name="phone" required></label>
+                    <label class="labelStyles">Email* <input type="email" name="email" required placeholder="email@example.com"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Working Information</legend>
+                    <label class="labelStyles">Business Position Title <input type="text" name="position" pattern="^[A-Za-z\d\-\s]{7,}$"></label>
+                    <label class="labelStyles">Business Name* <input type="text" name="businessName" required></label>
+                    <label class="labelStyles">Business Description <textarea name="businessDes" cols="57" rows="5"></textarea></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Membership Selection</legend>
+                    <label class="labelStyles">Membership <select name="membership" id="membership">
+                        <option value="">Select Membership &#9662;</option>
+                        <option value="np">NP Membership is for non profit organizations and there is no fee.</option>
+                        <option value="bronze">Bronze Membership.</option>
+                        <option value="silver">Silver Membership.</option>
+                        <option value="gold">Gold Membership.</option>
+                    </select></label>
+                </fieldset>
+                <input type="hidden" name="dateTime" id="hidden">
+                <input type="submit" value="JOIN THE TEAM" class="btnStyle">
+            </form>  
+        </div>
+        <div class="membershipGriditem">
+            <h2 class="msTitle go">Gold ($450)</h2>
+            <p class="msText gold">Two (2) Tickets to exclusive annual business awards gala
+                Logo advertising on chamber webpage
+                Ribbon cutting/Ground Breaking Social Media/Newsletter/Website Promotion
+                Free website promotion, marketplace & business search 
+                Exclusive opportunity on podcasts advertising & promotion
+                Seat at North Utah County Chamber Summit
+                Use of Conference Room
+                Digital Promotion at Monthly Luncheons and Chamber Events
+                Certificates of Origin (Unlimited number per year)
+                All benefits of Silver Membership</p>
+            <h2 class="msTitle si">Silver ($350)</h2>
+            <p class="msText silver">One seat at monthly business training luncheon - $200 value
+                Ribbon cutting/Ground Breaking Social Media/Website Promotion
+                Free website promotion, marketplace & business search 
+                $25 Access to Conference Room
+                Certificates of Origin (20 documents per year)
+                All benefits of Bronze Membership</p>
+            <h2 class="msTitle br">Bronze ($250)</h2>
+            <p class="msText bronze">Access to monthly business training luncheon and networking events
+                Ribbon Cutting and promotion on chamber website and social media
+                Welcome Bag advertising & other marketing tools
+                Free website promotion,  marketplace & business search 
+                Additional benefits
+                Member to member discounts, Member business referrals
+                Community involvement
+                Part of business community voice
+                Face to face business leader interaction through committee participation
+                Directory listing on Chamber website
+                Listing in Chamber Area Magazine
+                Newsletter events/promotions
+                </p>
+            <h2 class="msTitle">NP</h2>
+            <p class="msText">A close-knit community of business leaders
+                Government advocacy
+                Website promotion, marketplace & business search powered by Chamber Nation
+                Increased online tools for your business through MarketPlace/Business Search
+                Opportunities for professional development & skills enhancement
+                Access valuable networking opportunities to build strategic partnerships.</p>
+
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="footerInfo">
+            <div class="chamberAddress">
+                <div class="logoContainer fLogo"><a href="https://yoav-galindo.github.io/wdd230/chamber/"><img src="/wdd230/chamber/images/slcChaGreen.webp" alt="SLC UT Chamber of Commerce logo"></a></div>
+                <div class="webSiteNameFooter"><p>Salt Lake City UT Chamber of Commerce</p>
+                <address>301 S 800 E <br> SLC UT <br> 84104</address></div>
+            </div>
+
+
+            <div class="contactContainer">
+                <div class="mail"><p>&#128231; <a href="mailto:yoav-2006@hotmail.com">chambercommerce@hotmail.com</a></p></div>
+                <div class="tel"><p>&#9742; <a href="tel:8012594488">+(801)2594488</a></p></div>
+                <div class="location"><p>📍<a href="https://www.google.com/maps/place/301+S+800+E,+Salt+Lake+City,+UT+84102/@40.762842,-111.8681044,17z/data=!4m5!3m4!1s0x8752f565fd475251:0xd66fd7e0a550c3f9!8m2!3d40.762842!4d-111.8681044">Location Map</a></p></div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="copyContainer">
+            <div class="footFlex">
+                <div id="currentYear"><p></p></div>
+                <div class="authorsName"><p>Roberto Galindo |</p></div>
+                <div><p>WDD230 Project|</p></div>
+            </div>
+            <div id="lastModified"><p></p></div>
+        </div>
+
+    </footer>
+
+
+
+<script src="/wdd230/chamber/scripts/script.js"></script>
+</body>
+</html>
