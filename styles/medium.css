@@ -40,7 +40,7 @@
     }
     .mainTitle{
         font-size: 2.3vw;
-        text-shadow: -1.7px -1.7px 5px #496A81;
+        /* text-shadow: -1.7px -1.7px 5px #496A81; */
     }
     .linksList{
         font-size: 1.2vw;

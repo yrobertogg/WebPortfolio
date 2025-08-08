@@ -93,8 +93,9 @@ main{
     margin: auto; */
 }
 .mainTitle{
+    color: #0002DC;
     font-size: 5.3vw;
-    text-shadow: -1.7px -1.7px 10px #496A81;
+    /* text-shadow: -1.7px -1.7px 10px #496A81; */
 
     /* last values */
     /* font-size: 3vw;
